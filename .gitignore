@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Daten & Modelle (nie ins Repo) ---
+data/
+datasets/
+*.csv
+*.jsonl
+*.parquet
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+
+# --- Conda/venv ---
+.conda/
+venv/
+.venv/
+
+# --- Notebooks-Output / Caches ---
+.ipynb_checkpoints/
+__pycache__/
+.cache/
+
+# --- lokale Configs/Secrets ---
+.env
+*.local
