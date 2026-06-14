@@ -242,3 +242,12 @@ __pycache__/
 # --- lokale Configs/Secrets ---
 .env
 *.local
+.aider*
+
+# --- macOS / System ---
+.DS_Store
+**/.DS_Store
+
+# --- Notebook-Output (generierte Dateien) ---
+notebooks/gliner_output/
+notebooks/gliner_input/
